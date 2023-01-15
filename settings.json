@@ -1,0 +1,76 @@
+{
+  // Style VSCode
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.enablePreview": false,
+
+  // Style Editor
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.fontFamily": "JetBrains Mono, Hack Nerd Font, Impact, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": true,
+  "editor.rulers": [
+    90
+  ],
+
+  // Style Explorer
+  "explorer.compactFolders": false,
+
+  // Extensions
+  "extensions.ignoreRecommendations": true,
+
+  // Terminal Config
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+
+  // Files Style
+  "files.insertFinalNewline": true,
+
+  // Code Spell Checker
+  "cSpell.language": "en,pt,pt_BR",
+
+  // Material-icon-theme
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings"
+  },
+
+  // Rainbow CSV
+  "[csv][dynamic csv][tsv][csv (semicolon)]": {
+    "editor.stickyScroll.enabled": true
+  },
+}
