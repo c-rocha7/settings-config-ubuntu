@@ -1,9 +1,8 @@
 {
-  // Style VSCode
-  "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Omni",
   "workbench.editor.enablePreview": false,
 
   // Style Editor
@@ -34,6 +33,9 @@
 
   // Code Spell Checker
   "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enableFiletypes": [
+    "!php"
+  ],
 
   // Material-icon-theme
   "material-icon-theme.folders.associations": {
